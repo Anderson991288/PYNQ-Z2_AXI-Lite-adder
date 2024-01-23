@@ -111,14 +111,27 @@ parameter WIDTH = 4,
 ![image](https://github.com/Anderson991288/PYNQ-Z2_AXI-Lite-adder/assets/68816726/7a4751a4-8f11-47ad-93e2-0fe35fb6cbf2)
 
 
+## 6. "Create HDL Wrapper" ，包裝 Block Design 檔案。
+
+![11](https://github.com/Anderson991288/PYNQ-Z2-note/assets/68816726/18d45c14-0d65-46fa-8c56-25111e22804b)
 
 
 
+## 7. Run Synthesis"， "Run Implementation"，Generate Bitstream 後再輸出 Block design
+
+![12](https://github.com/Anderson991288/PYNQ-Z2-note/assets/68816726/c473aa9d-6000-4576-9e42-7cd073cb0c23)
+
+## 8.  輸出.tcl file
+* 在Tcl console 中輸入 "write_bd_tcl "你的專案路徑/design_1.tcl" "
+
+![image](https://github.com/Anderson991288/PYNQ-Z2-note/assets/68816726/c96ed45e-63a8-452a-845c-c25ae60b9872)
 
 
+## 9. 將 design_1.tcl ，design_1_wrapper.bit，design_1.hwh 複製到板子上
 
+* **檔名要改成一樣的，原來預設檔名是design_1.tcl ，design_1_wrapper.bit，design_1.hwh**
 
-
+![image](https://github.com/Anderson991288/PYNQ-Z2_AXI-Lite-adder/assets/68816726/051b9465-6a13-45eb-b737-5f17386ee5a8)
 
 
 
