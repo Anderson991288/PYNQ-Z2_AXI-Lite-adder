@@ -70,7 +70,8 @@ endmodule
     ```
     assign c_wire[C_S_AXI_DATA_WIDTH-1:WIDTH+1] = 0;
     ```
-    
+
+
 
 
 
@@ -97,10 +98,17 @@ parameter WIDTH = 4,
 
 
 
+## 4. Run Synthesis 和 Run Implementation，完成後再 Re-package IP
+
+![image](https://github.com/Anderson991288/PYNQ-Z2_AXI-Lite-adder/assets/68816726/b03d7768-9a65-4ab9-851f-301cb152ea33)
 
 
+## 5. Create Block design ，將剛剛包好的 IP 加入，按照以下連接
 
+![image](https://github.com/Anderson991288/PYNQ-Z2_AXI-Lite-adder/assets/68816726/4fbf51ef-9f8f-4210-b89e-9f889a254ccf)
 
+* **Processing System 有些接口找不到的話，可以點兩下到選單裡面找**
+![image](https://github.com/Anderson991288/PYNQ-Z2_AXI-Lite-adder/assets/68816726/7a4751a4-8f11-47ad-93e2-0fe35fb6cbf2)
 
 
 
