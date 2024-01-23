@@ -34,7 +34,7 @@ endmodule
 
 ![未命名3](https://github.com/Anderson991288/PYNQ-Z2-note/assets/68816726/977c7dee-d680-4f30-aa1d-9611f8db1591)
 
-## 4.修改內建AXI程式，加入自訂的 port
+## 4.修改內建AXI程式，
 
 * **axi_adder_v1_0_S00_AXI :**
 
