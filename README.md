@@ -79,13 +79,13 @@ endmodule
 * 這是頂層模塊，定義 bus interface 的接口和參數
   
 ```
-	// Add user logic here
-        axi_adder #(.WIDTH(WIDTH)
-        ) axi_adder_inst (
+// Add user logic here
+axi_adder #(.WIDTH(WIDTH)
+     ) axi_adder_inst (
             .a(a_i),
             .b(b_i),
             .c(c_i)
-            );
+     );
 ```
  * 它包含了 WIDTH 參數，用於設定加法器可以處理的數字的最大位元數
 ```
