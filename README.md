@@ -107,7 +107,7 @@ parameter WIDTH = 4,
 
 ![image](https://github.com/Anderson991288/PYNQ-Z2_AXI-Lite-adder/assets/68816726/4fbf51ef-9f8f-4210-b89e-9f889a254ccf)
 
-* **Processing System 有些接口找不到的話，可以點兩下到選單裡面找**
+* **Processing System 有些接口預設是沒有的，可以點兩下到選單裡面找**
 ![image](https://github.com/Anderson991288/PYNQ-Z2_AXI-Lite-adder/assets/68816726/7a4751a4-8f11-47ad-93e2-0fe35fb6cbf2)
 
 
