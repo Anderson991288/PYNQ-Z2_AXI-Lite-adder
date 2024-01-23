@@ -133,6 +133,17 @@ parameter WIDTH = 4,
 ![image](https://github.com/Anderson991288/PYNQ-Z2_AXI-Lite-adder/assets/68816726/051b9465-6a13-45eb-b737-5f17386ee5a8)
 
 
+## 10. 在Jupyter Notenook 中編寫程式，導入自訂的Overlay
 
+```
+from pynq import Overlay
+ol = Overlay('adder.bit')
+
+ol.axi_adder_0.write(0x0,5)
+
+ol.axi_adder_0.write(0x4,10)
+
+ol.axi_adder_0.read(0x8)
+```
 ### Result
 ![result](https://github.com/Anderson991288/PYNQ-Z2_AXI-Lite-adder/assets/68816726/27f87ee8-8aa9-4c67-81eb-283e4026d01b)
