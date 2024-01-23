@@ -40,12 +40,12 @@ endmodule
 
 * 透過 AXI Bus接收輸入（a 和 b），並將計算結果（c）傳送回去
     
-    將 slv_reg0 寄存器的內容分配給 a_wire。 a_wire 將持有來自 AXI 總線接口的數據，這些數據是加法器的第一個輸入 a
+    將 slv_reg0 暫存器的內容分配給 a_wire。 a_wire 將持有來自 AXI Bus接口的數據，這些數據是加法器的第一個輸入 a
     ```
     assign a_wire = slv_reg0;
     ```
     
-    將 slv_reg1 寄存器的內容分配給 b_wire。b_wire 用於存儲加法器的第二個輸入 b
+    將 slv_reg1 暫存器的內容分配給 b_wire。b_wire 用於存加法器的第二個輸入 b
     ```
     assign b_wire = slv_reg1;
     ```
