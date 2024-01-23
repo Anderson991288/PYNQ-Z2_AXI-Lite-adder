@@ -1,0 +1,4 @@
+NumberHits:0
+Timestamp: Mon Jan 22 15:03:14 UTC 2024
+VLNV: xilinx.com:user:axi_adder:1.0
+SynthRuntime: 38

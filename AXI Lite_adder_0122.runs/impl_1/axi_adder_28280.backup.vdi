@@ -1,0 +1,733 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:03:12 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Mon Jan 22 22:54:33 2024
+# Process ID: 28280
+# Current directory: C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.runs/impl_1
+# Command line: vivado.exe -log axi_adder.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source axi_adder.tcl -notrace
+# Log file: C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.runs/impl_1/axi_adder.vdi
+# Journal file: C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source axi_adder.tcl -notrace
+Command: link_design -top axi_adder -part xc7z020clg400-1
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.2
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc]
+WARNING: [Vivado 12-584] No ports matched 'a[3:0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:1]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:1]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'b[3:0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'c[4:0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Vivado 12-1411] Cannot set LOC property of ports, Site location is not valid [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:5]
+CRITICAL WARNING: [Common 17-69] Command failed: 'P2' is not a valid site or package pin name. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:6]
+WARNING: [Vivado 12-584] No ports matched 'sws_2bits_tri_i[0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sws_2bits_tri_i[1]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IIC_1_scl_io'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IIC_1_scl_io'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IIC_1_sda_io'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'IIC_1_sda_io'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'audio_clk_10MHz'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'bclk'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lrclk'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sdata_o'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sdata_i'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'codec_addr[0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'codec_addr[1]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btns_4bits_tri_i[0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btns_4bits_tri_i[1]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btns_4bits_tri_i[2]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'btns_4bits_tri_i[3]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[1]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[2]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'leds_4bits_tri_o[3]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgbleds_6bits_tri_o[0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgbleds_6bits_tri_o[1]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:40]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:40]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgbleds_6bits_tri_o[2]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:41]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:41]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgbleds_6bits_tri_o[3]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:42]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:42]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgbleds_6bits_tri_o[4]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:43]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:43]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'rgbleds_6bits_tri_o[5]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmoda_rpi_gpio_tri_io[1]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmoda_rpi_gpio_tri_io[0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmoda_rpi_gpio_tri_io[3]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmoda_rpi_gpio_tri_io[2]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmoda_rpi_gpio_tri_io[5]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmoda_rpi_gpio_tri_io[4]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmoda_rpi_gpio_tri_io[7]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmoda_rpi_gpio_tri_io[6]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmoda_rpi_gpio_tri_io[2]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmoda_rpi_gpio_tri_io[3]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmoda_rpi_gpio_tri_io[6]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmoda_rpi_gpio_tri_io[7]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmodb_gpio_tri_io[1]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:62]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:62]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmodb_gpio_tri_io[0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:63]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:63]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmodb_gpio_tri_io[3]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:64]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:64]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmodb_gpio_tri_io[2]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:65]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:65]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmodb_gpio_tri_io[5]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:66]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:66]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmodb_gpio_tri_io[4]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:67]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:67]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmodb_gpio_tri_io[7]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:68]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:68]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmodb_gpio_tri_io[6]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:69]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:69]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmodb_gpio_tri_io[2]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:70]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:70]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmodb_gpio_tri_io[3]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmodb_gpio_tri_io[6]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'pmodb_gpio_tri_io[7]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:73]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:73]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:76]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:76]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[1]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:77]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:77]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[2]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:78]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:78]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[3]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:79]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:79]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[4]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:80]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:80]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[5]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:81]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:81]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[6]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:82]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:82]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[7]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:83]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:83]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[8]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:84]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:84]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[9]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:85]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:85]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[10]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:86]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:86]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[11]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:87]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:87]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[12]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:88]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:88]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[13]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:89]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:89]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[14]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:90]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:90]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[15]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:91]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:91]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[16]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:92]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:92]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[17]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:93]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:93]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[18]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:94]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:94]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_gpio_tri_io[19]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:95]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:95]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_direct_iic_scl_io'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:98]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:98]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_direct_iic_sda_io'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:99]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:99]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_direct_iic_scl_io'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:100]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:100]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_direct_iic_sda_io'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:101]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:101]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_direct_spi_io1_io'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:104]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:104]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_direct_spi_io0_io'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:105]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:105]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_direct_spi_sck_io'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:106]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:106]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'arduino_direct_spi_ss_io'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:107]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:107]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vaux1_v_n'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:110]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:110]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vaux1_v_p'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:111]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:111]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vaux9_v_n'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:112]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:112]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vaux9_v_p'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:113]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:113]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vaux6_v_n'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:114]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:114]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vaux6_v_p'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:115]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:115]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vaux15_v_n'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:116]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:116]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vaux15_v_p'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:117]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:117]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vaux5_v_n'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:118]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:118]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vaux5_v_p'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:119]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:119]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vaux13_v_n'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:120]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:120]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'Vaux13_v_p'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:121]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:121]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hdmi_in_clk_p'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:124]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports hdmi_in_clk_p]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:124]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-584] No ports matched 'hdmi_in_clk_n'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:127]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:127]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hdmi_in_clk_p'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:128]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:128]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hdmi_in_data_n[0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:129]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:129]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hdmi_in_data_p[0]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:130]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:130]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'hdmi_in_data_n[1]'. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:131]
+INFO: [Common 17-14] Message 'Vivado 12-584' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:131]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:131]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:132]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+INFO: [Common 17-14] Message 'Common 17-55' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings. [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc:132]
+Finished Parsing XDC File [C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.srcs/constrs_1/new/constraint.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+9 Infos, 100 Warnings, 103 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 620.707 ; gain = 336.707
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.648 . Memory (MB): peak = 635.582 ; gain = 14.875
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: c09e38ed
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:12 . Memory (MB): peak = 1153.457 ; gain = 517.875
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: c09e38ed
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1153.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Retarget created 0 cells and removed 0 cells
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: c09e38ed
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1153.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 0 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: c09e38ed
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1153.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 0 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: c09e38ed
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1153.457 ; gain = 0.000
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+Phase 5 Shift Register Optimization | Checksum: c09e38ed
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 1153.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: c09e38ed
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1153.457 ; gain = 0.000
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1153.457 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: c09e38ed
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1153.457 ; gain = 0.000
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+Ending Power Optimization Task | Checksum: c09e38ed
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1153.457 ; gain = 0.000
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: c09e38ed
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1153.457 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+25 Infos, 100 Warnings, 103 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1153.457 ; gain = 532.750
+INFO: [Timing 38-480] Writing timing data to binary archive.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.runs/impl_1/axi_adder_opt.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file axi_adder_drc_opted.rpt -pb axi_adder_drc_opted.pb -rpx axi_adder_drc_opted.rpx
+Command: report_drc -file axi_adder_drc_opted.rpt -pb axi_adder_drc_opted.pb -rpx axi_adder_drc_opted.rpx
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Anderson/AXI Lite_adder_0122/axi_adder_1.0'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.2/data/ip'.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.runs/impl_1/axi_adder_drc_opted.rpt.
+report_drc completed successfully
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1154.262 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 8e147bef
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1154.262 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1154.262 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: d2a6d9ca
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.441 . Memory (MB): peak = 1183.973 ; gain = 29.711
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 11c9b24bb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.467 . Memory (MB): peak = 1183.973 ; gain = 29.711
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 11c9b24bb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.469 . Memory (MB): peak = 1183.973 ; gain = 29.711
+Phase 1 Placer Initialization | Checksum: 11c9b24bb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.470 . Memory (MB): peak = 1183.973 ; gain = 29.711
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 11c9b24bb
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.492 . Memory (MB): peak = 1183.973 ; gain = 29.711
+WARNING: [Place 46-29] place_design is not in timing mode. Skip physical synthesis in placer
+Phase 2 Global Placement | Checksum: 19880bd14
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1183.973 ; gain = 29.711
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 19880bd14
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1183.973 ; gain = 29.711
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 101b3f1b2
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1183.973 ; gain = 29.711
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 14fdc2993
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1183.973 ; gain = 29.711
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 14fdc2993
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:01 . Memory (MB): peak = 1183.973 ; gain = 29.711
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: 14ba67566
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1184.191 ; gain = 29.930
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 14ba67566
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1184.191 ; gain = 29.930
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 14ba67566
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1184.191 ; gain = 29.930
+Phase 3 Detail Placement | Checksum: 14ba67566
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1184.191 ; gain = 29.930
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+Phase 4.1 Post Commit Optimization | Checksum: 14ba67566
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1184.191 ; gain = 29.930
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 14ba67566
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1184.191 ; gain = 29.930
+
+Phase 4.3 Placer Reporting
+Phase 4.3 Placer Reporting | Checksum: 14ba67566
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1184.191 ; gain = 29.930
+
+Phase 4.4 Final Placement Cleanup
+Phase 4.4 Final Placement Cleanup | Checksum: 14ba67566
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1184.191 ; gain = 29.930
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 14ba67566
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1184.191 ; gain = 29.930
+Ending Placer Task | Checksum: 931f3331
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:02 . Memory (MB): peak = 1184.191 ; gain = 29.930
+INFO: [Common 17-83] Releasing license: Implementation
+43 Infos, 101 Warnings, 103 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.056 . Memory (MB): peak = 1185.199 ; gain = 1.008
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.runs/impl_1/axi_adder_placed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_io -file axi_adder_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1194.238 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file axi_adder_utilization_placed.rpt -pb axi_adder_utilization_placed.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 1194.238 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file axi_adder_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1194.238 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7z020'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7z020'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 50ab742 ConstDB: 0 ShapeSum: 8e147bef RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: da01de68
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1338.664 ; gain = 144.426
+Post Restoration Checksum: NetGraph: b603d437 NumContArr: 23fe0a31 Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+INFO: [Route 35-64] No timing constraints were detected. The router will operate in resource-optimization mode.
+
+Phase 2.1 Fix Topology Constraints
+Phase 2.1 Fix Topology Constraints | Checksum: da01de68
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1344.852 ; gain = 150.613
+
+Phase 2.2 Pre Route Cleanup
+Phase 2.2 Pre Route Cleanup | Checksum: da01de68
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1344.852 ; gain = 150.613
+ Number of Nodes with overlaps = 0
+Phase 2 Router Initialization | Checksum: 1a3d39d00
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1348.684 ; gain = 154.445
+
+Phase 3 Initial Routing
+Phase 3 Initial Routing | Checksum: 1e674b5d5
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1348.684 ; gain = 154.445
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+Phase 4.1 Global Iteration 0 | Checksum: ccbba7d3
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1348.719 ; gain = 154.480
+Phase 4 Rip-up And Reroute | Checksum: ccbba7d3
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1348.719 ; gain = 154.480
+
+Phase 5 Delay and Skew Optimization
+Phase 5 Delay and Skew Optimization | Checksum: ccbba7d3
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1348.719 ; gain = 154.480
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+Phase 6.1 Hold Fix Iter | Checksum: ccbba7d3
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1348.719 ; gain = 154.480
+Phase 6 Post Hold Fix | Checksum: ccbba7d3
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1348.719 ; gain = 154.480
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.00243347 %
+  Global Horizontal Routing Utilization  = 0.00236646 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Congestion Report
+North Dir 1x1 Area, Max Cong = 0.900901%, No Congested Regions.
+South Dir 1x1 Area, Max Cong = 14.4144%, No Congested Regions.
+East Dir 1x1 Area, Max Cong = 4.41176%, No Congested Regions.
+West Dir 1x1 Area, Max Cong = 14.7059%, No Congested Regions.
+
+------------------------------
+Reporting congestion hotspots
+------------------------------
+Direction: North
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: South
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: East
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+Direction: West
+----------------
+Congested clusters found at Level 0
+Effective congestion level: 0 Aspect Ratio: 1 Sparse Ratio: 0
+
+Phase 7 Route finalize | Checksum: ccbba7d3
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1348.719 ; gain = 154.480
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: ccbba7d3
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1350.734 ; gain = 156.496
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: bb06de53
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1350.734 ; gain = 156.496
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:26 . Memory (MB): peak = 1350.734 ; gain = 156.496
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+56 Infos, 101 Warnings, 103 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:27 . Memory (MB): peak = 1350.734 ; gain = 156.496
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.058 . Memory (MB): peak = 1350.734 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.runs/impl_1/axi_adder_routed.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_drc -file axi_adder_drc_routed.rpt -pb axi_adder_drc_routed.pb -rpx axi_adder_drc_routed.rpx
+Command: report_drc -file axi_adder_drc_routed.rpt -pb axi_adder_drc_routed.pb -rpx axi_adder_drc_routed.rpx
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.runs/impl_1/axi_adder_drc_routed.rpt.
+report_drc completed successfully
+INFO: [runtcl-4] Executing : report_methodology -file axi_adder_methodology_drc_routed.rpt -pb axi_adder_methodology_drc_routed.pb -rpx axi_adder_methodology_drc_routed.rpx
+Command: report_methodology -file axi_adder_methodology_drc_routed.rpt -pb axi_adder_methodology_drc_routed.pb -rpx axi_adder_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/Anderson/AXI Lite_adder_0122/AXI Lite_adder_0122.runs/impl_1/axi_adder_methodology_drc_routed.rpt.
+report_methodology completed successfully
+INFO: [runtcl-4] Executing : report_power -file axi_adder_power_routed.rpt -pb axi_adder_power_summary_routed.pb -rpx axi_adder_power_routed.rpx
+Command: report_power -file axi_adder_power_routed.rpt -pb axi_adder_power_summary_routed.pb -rpx axi_adder_power_routed.rpx
+WARNING: [Power 33-232] No user defined clocks were found in the design!
+Resolution: Please specify clocks using create_clock/create_generated_clock for sequential elements. For pure combinatorial circuits, please specify a virtual clock, otherwise the vectorless estimation might be inaccurate
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+68 Infos, 102 Warnings, 103 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+INFO: [runtcl-4] Executing : report_route_status -file axi_adder_route_status.rpt -pb axi_adder_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file axi_adder_timing_summary_routed.rpt -pb axi_adder_timing_summary_routed.pb -rpx axi_adder_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+INFO: [runtcl-4] Executing : report_incremental_reuse -file axi_adder_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-545] No incremental reuse to report, no incremental placement and routing data was found.
+INFO: [runtcl-4] Executing : report_clock_utilization -file axi_adder_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file axi_adder_bus_skew_routed.rpt -pb axi_adder_bus_skew_routed.pb -rpx axi_adder_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -1, Delay Type: min_max, Timing Stage: Requireds.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 22 22:55:36 2024...
