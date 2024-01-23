@@ -124,7 +124,6 @@ parameter WIDTH = 4,
 ## 8.  輸出.tcl file
 * 在Tcl console 中輸入 "write_bd_tcl "你的專案路徑/design_1.tcl" "
 
-![image](https://github.com/Anderson991288/PYNQ-Z2-note/assets/68816726/c96ed45e-63a8-452a-845c-c25ae60b9872)
 
 
 ## 9. 將 design_1.tcl ，design_1_wrapper.bit，design_1.hwh 複製到板子上
