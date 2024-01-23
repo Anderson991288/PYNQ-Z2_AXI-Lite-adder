@@ -76,21 +76,22 @@ endmodule
 
 **axi_adder_v1_0 ：**
 
-    * 這是頂層模塊，定義 bus interface 的接口和參數
-      ```
-      // Add user logic here
-            axi_adder #(.WIDTH(WIDTH)
-            ) axi_adder_inst (
-                .a(a_i),
-                .b(b_i),
-                .c(c_i)
-                );
-      ```
-    * 它包含了 WIDTH 參數，用於設定加法器可以處理的數字的最大位元數
-      ```
-      parameter WIDTH = 4,
-      ```
-    * 此模塊內嵌了一個子模塊 axi_adder_v1_0_S00_AXI 和 axi_adder，分別負責處理 AXI 加法運算
+* 這是頂層模塊，定義 bus interface 的接口和參數
+  
+```
+	// Add user logic here
+        axi_adder #(.WIDTH(WIDTH)
+        ) axi_adder_inst (
+            .a(a_i),
+            .b(b_i),
+            .c(c_i)
+            );
+```
+ * 它包含了 WIDTH 參數，用於設定加法器可以處理的數字的最大位元數
+```
+parameter WIDTH = 4,
+```
+* 此模塊內嵌了一個子模塊 axi_adder_v1_0_S00_AXI 和 axi_adder，分別負責處理 AXI 加法運算
     
     
 
